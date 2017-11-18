@@ -5,15 +5,15 @@ service_description:
 cse:
   service:
     registry:
-      address: https://100.125.0.198:30100
+      address: https://cse.cn-north-1.myhwclouds.com:443
   config:
     client:
-      serverUri: https://100.125.0.198:30103
+      serverUri: https://cse.cn-north-1.myhwclouds.com:443
       refreshMode: 0
       refresh_interval: 5000
   monitor:
     client:
-      serverUri: https://100.125.0.198:30109
+      serverUri: https://cse.cn-north-1.myhwclouds.com:443
   grpc:
     address: 0.0.0.0:9090
   rest:
